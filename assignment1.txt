@@ -1,0 +1,128 @@
+ 1230  man man
+ 1231  uname
+ 1232  pwd
+ 1233  date
+ 1234  hostname
+ 1235  cal
+ 1236  cd 0324desd/
+ 1237  ls
+ 1238  ls eos
+ 1239  dir
+ 1240  cd eos/practise/
+ 1241  cat > new.txt
+ 1242  cat >> new.txt
+ 1243  ls
+ 1244  cat new.txt
+ 1245  cat > new.txt
+ 1246  cat new.txt
+ 1247  ls
+ 1248  cp two ones
+ 1249  cp -r two ones
+ 1250  ls
+ 1251  cp new.txt two
+ 1252  ls
+ 1253  ls two
+ 1254  ls ones
+ 1255  mv new.txt two
+ 1256  ls two
+ 1257  ls 
+ 1258  mv two ones
+ 1259  ls
+ 1260  ls ones
+ 1261  ls
+ 1262  mv abhay.txt harsh.txt
+ 1263  ls
+ 1264  tac
+ 1265  tac harsh.txt
+ 1266  rec harsh.txt
+ 1267  rev harsh.txt
+ 1268  wc harsh.txt
+ 1269  mkdir newdir
+ 1270  ls
+ 1271  cd newdir
+ 1272  cd ..
+ 1273  uname -m
+ 1274  rm file.txt
+ 1275  ls
+ 1276  rmdir newdir
+ 1277  ls
+ 1278  touch new1 new2 new3
+ 1279  ls
+ 1280  man touch
+ 1281  touch -r new1
+ 1282  touch -r 
+ 1283  man touch
+ 1284  sort
+ 1285  ifconfig getifaddr en0
+ 1286  cat sort.txt
+ 1287  cat > sort.txt
+ 1288  ls
+ 1289  ls sort.txt
+ 1290  cat sort.txt
+ 1291  cat >> sort.txt
+ 1292  cat sort.txt
+ 1293  sort cat sort.txt
+ 1294  sortsort.txt
+ 1295  sort sort.txt
+ 1296  uniq
+ 1297  uniq sot.txt
+ 1298  uniq sort.txt
+ 1299  cat sort.txt
+ 1300  tree
+ 1301  sudo apt install tree
+ 1302  tree
+ 1303  cd ~
+ 1304  tree
+ 1305  history | tail -50
+ 1306  cd 0324desd/eos/practise/
+ 1307  ls
+ 1308  cat cat.txt
+ 1309  cat sort.txt
+ 1310  cat >> sort.txt
+ 1311  cat sort.txt
+ 1312  sort sort.txt
+ 1313  man head
+ 1314  head sort.txt
+ 1315  man head
+ 1316  man head "1"
+ 1317  head sort.txt "1"
+ 1318  man head "1"
+ 1319  head -2  sort.txt 
+ 1320  head -4  sort.txt 
+ 1321  tail sort.txt
+ 1322  tail -2 sort.txt
+ 1323  tail -5 sort.txt
+ 1324  factor 5
+ 1325  man factor
+ 1326  factor -5
+ 1327  man factor
+ 1328  uniq sort.txt
+ 1329  man factor
+ 1330  factor 55
+ 1331  factor 4
+ 1332  factor 8
+ 1333  factor 99
+ 1334  man alias
+ 1335  alias .. =' cd ..'
+ 1336  alias ..=' cd ..'
+ 1337  ..
+ 1338  .
+ 1339  cd 0324desd/eos/practise/
+ 1340  ..
+ 1341  cd practise/
+ 1342  alias -p
+ 1343  ps
+ 1344  kill
+ 1345  man kill
+ 1346  kill -l
+ 1347  kill -L
+ 1348  man kill
+ 1349  kill -p
+ 1350  man kill
+ 1351  kill -s
+ 1352  env
+ 1353  unalias ..
+ 1354  alias -p
+ 1355  man env
+ 1356  history | tail -100
+ 1357  history | tail -150
