@@ -1,0 +1,77 @@
+man ls
+ 1469  ls -t
+ 1470  ls -l
+ 1471  ls -lt
+ 1472  ls -ltr
+ 1473  ls -ltrH
+ 1474  ls -ltrh
+ 1475  ls -ltrha
+ 1476  man ls
+ 1477  ls -lS
+ 1478  ls -lSr
+ 1479  ls -li
+ 1480  ls -lir
+ 1481  man ls
+ 1482  ls -lR
+ 1483  cat >> myfile.txt
+ 1484  cat > myfile.txt
+ 1485  cat >> myfile.txt
+ 1486  cat myfile.txt
+ 1487  man ls
+ 1488  man touch
+ 1489  ls
+ 1490  touch -t 201205231155 cat.txt
+ 1491  ls -l
+ 1492  cat cat.txt 
+ 1493  mkdir one
+ 1494  cd one
+ 1495  touch 1.txt 11.txt 111.txt
+ 1496  mkdir two
+ 1497  cd two
+ 1498  touch 2.txt 22.txt 222.txt
+ 1499  mkdir three
+ 1500  cd three/
+ 1501  touch 3.txt 33.txt 333.txt
+ 1502  mkdir four
+ 1503  cd four/
+ 1504  touch 4.txt 44.txt 444.txt
+ 1505  mkdir five
+ 1506  cd five/
+ 1507  touch 5.txt 55.txt 555.txt
+ 1508  cd ~
+ 1509  ls -l one/two/three/four/five
+ 1510  ls -l ./one/two/three/four/five
+ 1511  ls
+ 1512  ls -l 0324desd/eos/practise/one/two/three/four/five
+ 1513  cat >> 0324desd/eos/practise/one/two/three/four/44.txt
+ 1514* cat 0324de eos/practise/one/two/three/four/44.txt
+ 1515  cat 0324desd/eos/practise/one/two/three/four/44.txt
+ 1516  cat 0324derm 0324de/eos/practise/one/two/three/four/five/555.txt
+ 1517  clear
+ 1518  ls
+ 1519  ls -l
+ 1520  rm 0324de
+ 1521  clear
+ 1522  rm 0324desd/eos/practise/one/two/three/four/five/555.txt
+ 1523  ls 0324desd/eos/practise/one/two/three/four/five
+ 1524  cd 0324desd/eos/practise/one/two/three/four/five
+ 1525  ls -al
+ 1526  cd ../../3.txt
+ 1527  cat > ../../3.txt
+ 1528  cat  ../../3.txt
+ 1529  ls ../../../
+ 1530  ls -l ../../../
+ 1531  rm ../../../222.txt
+ 1532  ls -l ../../../222.txt
+ 1533  ls -l ../../../
+ 1534  cd ../../../../
+ 1535  rm -r two/three/four/five
+ 1536  ls -l two/three/four/five
+ 1537  ls two/three/four/five
+ 1538  rm  two/three/four/five
+ 1539  rm -r two/three/four
+ 1540  ls -l two/three
+ 1541  cd ~
+ 1542  touch -t 202009120625 0324desd/eos/practise/one/two/three/3.txt
+ 1543  ls -l 202009120625 0324desd/eos/practise/one/two/three/3.txt
+ 1544  ls -l 0324desd/eos/practise/one/two/three/3.txt
