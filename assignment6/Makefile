@@ -1,5 +1,5 @@
 
-TARGET=assignment2
+TARGET=assignment3
 
 CSRCS= $(TARGET).c
 CSRCS+= 
