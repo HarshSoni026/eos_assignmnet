@@ -11,16 +11,17 @@ void* thread_func(void *param) {
 	int array_size = 10;
 	int min_index = 0;
 
-	for(i=0; i<array_size-1; i++) {
-		min_index = i;
-		for(j=i+1; j<array_size; j++){
-			if(arr[min_index] > arr[j]) 
-			min_index = j;
-		}	
-		temp = arr[i];
-		arr[i] = arr[min_index];
-		arr[min_index] = temp;
-	}
+    for(int k=0; k<array_size; k++){
+        for (i=0; i<array_size-1-k; i++){
+            j = i + 1;
+            if(arr[i] > arr[j]){
+                temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+            }
+        }
+    }
+	
 	return NULL;
 }
 
