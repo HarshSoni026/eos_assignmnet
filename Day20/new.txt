@@ -1,0 +1,65 @@
+uname
+uname -r
+uname -a
+vim /boot/config-5.4.73-ldd 
+vim ~/linux-5.4.73/arch/x86/entry/syscalls/syscall_32.tbl 
+cat /proc/sys/kernel/sched_rr_timeslice_ms 
+cd EOS/
+ls
+ls -l
+ls /
+ls -l /
+ls -l /dev/
+ls -l
+ls -lh
+ls -l ~
+ls -l -h ~
+cat > numbers.txt
+cat numbers.txt
+cat -n numbers.txt
+head numbers.txt 
+tail numbers.txt 
+head -6 numbers.txt 
+tail -13 numbers.txt 
+sort numbers.txt 
+sort -n numbers.txt 
+vim numbers.txt 
+sort -n numbers.txt 
+rev numbers.txt 
+tac numbers.txt 
+uniq numbers.txt 
+sort numbers.txt 
+uniq numbers.txt 
+sort numbers.txt 
+sort numbers.txt > sorted.txt
+cat sorted.txt 
+ls
+uniq sorted.txt 
+ls
+wc < copy.txt 
+bc
+cat > input.txt
+bc < input.txt 
+bc < input.txt > output.txt
+cat output.txt 
+ls -z
+ls -z 2> error.txt
+cat error.txt 
+sort numbers.txt 
+sort numbers.txt | uniq
+echo "Hello DESD"
+echo "Hello DESD" | tr " " "@"
+echo "Hello     DESD"
+echo "Hello     DESD" | tr -s " "
+echo "Hello     DESD" | tr -s "l"
+echo "Hello DESD" | tr "a-z" "A-Z"
+echo "Hello DESD" | tr "A-Z" "a-z"
+echo "Hello DESD" | tr "A-Z|a-z" "a-z|A-z"
+echo "ECP DSA EOS MCPI IoT RTOS ELDD"
+echo "ECP DSA EOS MCPI IoT RTOS ELDD" | cut -d " " -f1
+echo "ECP DSA EOS MCPI IoT RTOS ELDD" | cut -d " " -f2
+echo "ECP DSA EOS MCPI IoT RTOS ELDD" | cut -d " " -f5
+echo "ECP DSA EOS MCPI IoT RTOS ELDD" | cut -d " " -f1,2,3
+echo "ECP DSA EOS MCPI IoT RTOS ELDD" | cut -d " " -f5,6
+echo "ECP DSA EOS MCPI IoT RTOS ELDD" | cut -d " " -f6,5
+history
